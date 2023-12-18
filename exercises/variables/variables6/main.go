@@ -1,7 +1,6 @@
 // variables6
 // Make me compile!
 
-// I AM NOT DONE
 package main
 
 import "fmt"
@@ -9,8 +8,9 @@ import "fmt"
 const x = 10
 
 func main() {
-	fmt.Println(x)
+	var y = x
+	fmt.Println(y)
 
-	x = x + 1
-	fmt.Println(x)
+	y = x + 1
+	fmt.Println(y)
 }
